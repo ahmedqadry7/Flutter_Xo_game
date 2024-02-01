@@ -13,7 +13,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.cyan,
+        backgroundColor: Color(0xFFFF0276),
         title: Center(child: Text("TIC TAC TOE",
         style: TextStyle(color: Colors.white,
         fontStyle: FontStyle.italic,
@@ -40,7 +40,7 @@ class LoginPage extends StatelessWidget {
                   filled: true,
                     prefixIcon: Icon(Icons.person,color: Colors.black,),
                     label: Text("Player one name...",style: TextStyle(
-                      color: Colors.cyan,fontSize: 14
+                      color: Color(0xFFFF0276),fontSize: 14
                     ),),
                     enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12))),
@@ -52,7 +52,7 @@ class LoginPage extends StatelessWidget {
                   filled: true,
                     prefixIcon: Icon(Icons.person , color: Colors.black,),
                     label: Text("Player two name...",style: TextStyle(
-                      color: Colors.cyan,fontSize: 14
+                      color: Color(0xFFFF0276),fontSize: 14
                     ),),
                     enabledBorder: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12))),
@@ -65,7 +65,7 @@ class LoginPage extends StatelessWidget {
                 style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10)),
-                    backgroundColor: Colors.cyan),
+                    backgroundColor: Color(0xFFFF0276),),
                 child: Text(
                   "Let's Go",
                   style: TextStyle(color: Colors.white),
