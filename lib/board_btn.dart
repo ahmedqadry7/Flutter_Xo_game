@@ -12,7 +12,6 @@ class BoardBtn extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Expanded(
-        child: Card(
       child: ElevatedButton(
         onPressed: () {
           onClick(index);
@@ -24,8 +23,7 @@ class BoardBtn extends StatelessWidget {
             )),
         child: Text(label,
         style: TextStyle(fontSize: 50,
-        fontWeight: FontWeight.w200 , color: Colors.white),),
-      ),
+        fontWeight: FontWeight.w200 , color: Colors.white),)
     ));
   }
 }
