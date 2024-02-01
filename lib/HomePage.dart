@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
     PlayerMode mode = ModalRoute.of(context)!.settings.arguments as PlayerMode;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFFFF0276),
+        backgroundColor: Colors.cyan,
         title: Text(
           "TIC TAC TOE",
           style: TextStyle(

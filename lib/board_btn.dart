@@ -18,7 +18,7 @@ class BoardBtn extends StatelessWidget {
           onClick(index);
         },
         style: ElevatedButton.styleFrom(
-            backgroundColor: Color(0xFFFF0276),
+            backgroundColor: Colors.cyan,
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(1),
             )),
